@@ -1,0 +1,41 @@
+        Bài Figma to HTML: Explore and Travel
+
+_ Học srcset.
+ <img srcset="./img/logo.png 2x" alt=""> => 2x cho ảnh nét hơn.
+
+_ gap (grid-gap)
+=> Thuộc tính CSS gap: đặt các khoảng trống (rãnh) giữa các hàng và cột. Nó là cách viết tắt của khoảng cách hàng và khoảng cách cột.
+
+_ grid-template-columns
+=> Thuộc tính CSS xác định tên dòng và chức năng định kích thước theo dõi của các cột lưới.
++,    &-form {
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+
++,    grid-template-columns: 3fr repeat(3, 1fr);
+
+_ Chú ý đơn vị fr.
+     &-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 25px;
+    }
+
+_ Dùng thẻ a href="#!" => ấn vào sẽ không chạy lên trên cùng.
+
+_ object-position: top;
+
+_ Chú ý thêm về grid: grid-gap
+    &-top {
+      display: grid;
+      grid-template-columns: 3fr repeat(3, 1fr);
+      grid-gap: 30px 80px;
+      padding-bottom: 80px;
+      border-bottom: 1px solid #c4c4c4;
+    }
+
+_ grid-scroll-snap.
